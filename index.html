@@ -16,6 +16,7 @@
                 <li><a href="index.html">Beranda</a></li>
                 <li><a href="pendaftaran.html">Daftar Lomba</a></li>
                 <li><a href="admin.html">Admin</a></li>
+                <li><a href="#" onclick="bukaMateri('sains')">Materi Belajar</a></li>
             </ul>
         </nav>
     </header>
@@ -23,28 +24,119 @@
     <main>
         <section class="hero">
             <h2>Selamat Datang di Portal Pendaftaran Lomba Akademik</h2>
-            <p>Daftarkan diri Anda dalam berbagai lomba akademik</p>
+            <p>Daftarkan diri Anda dalam berbagai lomba akademik berkualitas</p>
             <a href="pendaftaran.html" class="cta-button">Daftar Sekarang</a>
         </section>
 
         <section class="lomba-list">
-            <h3>Mata Lomba yang Tersedia</h3>
+            <h3>Pilih Lomba yang Akan Diikuti</h3>
             <div class="card-container">
                 <div class="card">
-                    <h4>📐 Matematika</h4>
-                    <p>Lomba pemecahan masalah matematika</p>
+                    <h4>📐 Matematika Tingkat SMP</h4>
+                    <p>Lomba pemecahan masalah matematika tingkat SMP</p>
+                    <p><strong>Biaya: Rp 50.000</strong></p>
+                    <p><strong>Deadline: 30 April 2025</strong></p>
+                    <a href="pendaftaran.html?lomba=matematika-smp" class="cta-button-small">Daftar Sekarang</a>
                 </div>
+                
                 <div class="card">
-                    <h4>🧪 Kimia</h4>
-                    <p>Lomba eksperimen dan teori kimia</p>
+                    <h4>📐 Matematika Tingkat SMA</h4>
+                    <p>Lomba matematika advance untuk tingkat SMA</p>
+                    <p><strong>Biaya: Rp 75.000</strong></p>
+                    <p><strong>Deadline: 30 April 2025</strong></p>
+                    <a href="pendaftaran.html?lomba=matematika-sma" class="cta-button-small">Daftar Sekarang</a>
                 </div>
+                
                 <div class="card">
-                    <h4>🔬 Biologi</h4>
+                    <h4>🧪 Kimia Tingkat SMP</h4>
+                    <p>Lomba eksperimen dan teori kimia dasar</p>
+                    <p><strong>Biaya: Rp 50.000</strong></p>
+                    <p><strong>Deadline: 30 April 2025</strong></p>
+                    <a href="pendaftaran.html?lomba=kimia-smp" class="cta-button-small">Daftar Sekarang</a>
+                </div>
+                
+                <div class="card">
+                    <h4>🧪 Kimia Tingkat SMA</h4>
+                    <p>Lomba kimia organik dan anorganik</p>
+                    <p><strong>Biaya: Rp 75.000</strong></p>
+                    <p><strong>Deadline: 30 April 2025</strong></p>
+                    <a href="pendaftaran.html?lomba=kimia-sma" class="cta-button-small">Daftar Sekarang</a>
+                </div>
+                
+                <div class="card">
+                    <h4>🔬 Biologi Tingkat SMP</h4>
                     <p>Lomba pengetahuan biologi modern</p>
+                    <p><strong>Biaya: Rp 50.000</strong></p>
+                    <p><strong>Deadline: 30 April 2025</strong></p>
+                    <a href="pendaftaran.html?lomba=biologi-smp" class="cta-button-small">Daftar Sekarang</a>
+                </div>
+                
+                <div class="card">
+                    <h4>🔬 Biologi Tingkat SMA</h4>
+                    <p>Lomba biologi molekuler dan genetika</p>
+                    <p><strong>Biaya: Rp 75.000</strong></p>
+                    <p><strong>Deadline: 30 April 2025</strong></p>
+                    <a href="pendaftaran.html?lomba=biologi-sma" class="cta-button-small">Daftar Sekarang</a>
+                </div>
+                
+                <div class="card">
+                    <h4>⚛️ Fisika Tingkat SMP</h4>
+                    <p>Lomba fisika terapan dan teori dasar</p>
+                    <p><strong>Biaya: Rp 50.000</strong></p>
+                    <p><strong>Deadline: 30 April 2025</strong></p>
+                    <a href="pendaftaran.html?lomba=fisika-smp" class="cta-button-small">Daftar Sekarang</a>
+                </div>
+                
+                <div class="card">
+                    <h4>⚛️ Fisika Tingkat SMA</h4>
+                    <p>Lomba fisika kuantum dan mekanika</p>
+                    <p><strong>Biaya: Rp 75.000</strong></p>
+                    <p><strong>Deadline: 30 April 2025</strong></p>
+                    <a href="pendaftaran.html?lomba=fisika-sma" class="cta-button-small">Daftar Sekarang</a>
+                </div>
+                
+                <div class="card">
+                    <h4>💻 Coding & Programming</h4>
+                    <p>Lomba pemrograman dan algoritma</p>
+                    <p><strong>Biaya: Rp 100.000</strong></p>
+                    <p><strong>Deadline: 15 Mei 2025</strong></p>
+                    <a href="pendaftaran.html?lomba=coding" class="cta-button-small">Daftar Sekarang</a>
+                </div>
+                
+                <div class="card">
+                    <h4>🔢 Olimpiade Sains Komprehensif</h4>
+                    <p>Lomba gabungan semua bidang sains</p>
+                    <p><strong>Biaya: Rp 150.000</strong></p>
+                    <p><strong>Deadline: 20 Mei 2025</strong></p>
+                    <a href="pendaftaran.html?lomba=komprehensif" class="cta-button-small">Daftar Sekarang</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="materi-pembelajaran">
+            <h3>Materi Pembelajaran & Latihan Soal</h3>
+            <div class="card-container">
+                <div class="card">
+                    <h4>📚 Bank Soal Olimpiade</h4>
+                    <p>Kumpulan soal olimpiade sains SMP untuk persiapan OSN</p>
+                    <a href="https://www.wardayacollege.com/bank-soal/olimpiade-sains-smp-biologi-fisika-kimia-summer-camp-persiapan-osn-2018/" 
+                       target="_blank" class="cta-button-small">Akses Soal</a>
                 </div>
                 <div class="card">
-                    <h4>⚛️ Fisika</h4>
-                    <p>Lomba fisika terapan dan teori</p>
+                    <h4>📖 E-Book Pembelajaran</h4>
+                    <p>Materi pembelajaran interaktif untuk semua mata lomba</p>
+                    <a href="https://online.anyflip.com/pewlg/ejjt/mobile/index.html" 
+                       target="_blank" class="cta-button-small">Buka E-Book</a>
+                </div>
+                <div class="card">
+                    <h4>🎯 Latihan Matematika</h4>
+                    <p>Soal-soal matematika tingkat olimpiade dengan pembahasan</p>
+                    <button class="cta-button-small" onclick="bukaMateri('matematika')">Mulai Belajar</button>
+                </div>
+                <div class="card">
+                    <h4>🔬 Latihan Sains</h4>
+                    <p>Kumpulan soal fisika, kimia, dan biologi</p>
+                    <button class="cta-button-small" onclick="bukaMateri('sains')">Mulai Belajar</button>
                 </div>
             </div>
         </section>
@@ -53,6 +145,17 @@
     <footer>
         <p>&copy; 2025 Portal Lomba Akademik. All rights reserved.</p>
     </footer>
+
+    <!-- Modal untuk Materi Pembelajaran -->
+    <div id="modalMateri" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="tutupModal()">&times;</span>
+            <h3 id="modalTitle">Materi Pembelajaran</h3>
+            <div id="modalContent">
+                <!-- Konten akan diisi oleh JavaScript -->
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>

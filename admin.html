@@ -16,6 +16,7 @@
                 <li><a href="index.html">Beranda</a></li>
                 <li><a href="pendaftaran.html">Daftar Lomba</a></li>
                 <li><a href="admin.html">Admin</a></li>
+                <li><a href="#" onclick="bukaMateri('sains')">Materi Belajar</a></li>
             </ul>
         </nav>
     </header>
@@ -36,8 +37,10 @@
                         <th>Sekolah</th>
                         <th>Kelas</th>
                         <th>Mata Lomba</th>
+                        <th>Biaya</th>
                         <th>No HP</th>
                         <th>Tanggal Daftar</th>
+                        <th>Status</th>
                         <th>Aksi</th>
                     </tr>
                 </thead>
@@ -51,6 +54,17 @@
     <footer>
         <p>&copy; 2025 Portal Lomba Akademik. All rights reserved.</p>
     </footer>
+
+    <!-- Modal untuk Materi Pembelajaran -->
+    <div id="modalMateri" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="tutupModal()">&times;</span>
+            <h3 id="modalTitle">Materi Pembelajaran</h3>
+            <div id="modalContent">
+                <!-- Konten akan diisi oleh JavaScript -->
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
